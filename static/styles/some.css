@@ -25,5 +25,5 @@ a:visited {
     margin-top: 100px;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 0px;
+    padding: 15px;
 }
