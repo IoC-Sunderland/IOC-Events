@@ -2,6 +2,11 @@ a:visited {
     color: none;
 }
 
+h1{
+    color: white;
+    font-family: Arial;
+}
+
 .ioc-logo{
     padding: 25px;
     padding-bottom: 15px;
