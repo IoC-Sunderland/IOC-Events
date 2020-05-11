@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>IOC</b> Sunderland</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#Events" class="w3-bar-item w3-button">Events</a>
+      <a href="#Blog" class="w3-bar-item w3-button">Blog</a>
+      <a href="#About" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Current Events Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Events</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Coding 101</div>
+        <a href ="https://www.eventbrite.co.uk/e/coding-101-curious-about-coding-tickets-101741158544" 
+            target="_blank">
+            <img src="static/img/IoC 101 20th May 2020 banner image.jpg"
+              alt="Coding 101" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Coding 102</div>
+        <a href ="https://www.eventbrite.co.uk/e/coding-102-even-more-curious-about-coding-tickets-101740679110"
+         target="_blank">
+         <img src="static/img/IoC 102 27th May banner image for eventbrite.jpg"
+          alt="Coding 102" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Coding 103</div>
+        <a href ="https://www.eventbrite.co.uk/e/coding-103-an-introduction-to-object-oriented-programming-tickets-101740416324" target="_blank">
+          <img src="static/img/IoC 103 3rd June banner image for eventbrite.jpg"
+           alt="Coding 103" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Git and GitHub Basics: Part One</div>
+        <img src="" alt="Git and Github Basics: Part One" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Git and GitHub Basics: Part Two</div>
+        <img src="" alt="Git and GitHub Basics: Part Two" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">
+          Coding for Data Analysis and Visualisation: Part One</div>
+        <img src="" alt="Coding for Data Analysis and Visualisation: Part One"
+         style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">
+          Coding for Data Analysis and Visualisation: Part Two</div>
+        <img src="" alt="Coding for Data Analysis and Visualisation: Part Two"
+         style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">
+          Coding for Data Analysis and Visualisation: Part Three</div>
+        <img src="" alt="Coding for Data Analysis and Visualisation: Part Three" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>The IoC(Institute of Coding) works alongside the University of Sunderland
+       to help bridge the digital skills gap.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="" alt="Steve Blanks" style="width:100%">
+      <h3>Steve Blanks</h3>
+      <p class="w3-opacity">IoC Programme Lead</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="" alt="Gavin McClary" style="width:100%">
+      <h3>Gavin McClary</h3>
+      <p class="w3-opacity">Senior Lecturer</p>
+      <p>Gavin designs and delivers technical bootcamps/workshops that cover various technologies and digital skills.  
+      </p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+</body>
+</html>
+
